@@ -3,6 +3,7 @@ import GuestList from './state/GuestList';
 import UserSearch from './state/UserSearch';
 import EventComponent from './events/EventComponent';
 import UserSearchClass from './classes/UserSearch';
+import UserSearchRef from './refs/UserSearch';
 
 const users = [
   { name: 'Sarah', age: 22 },
@@ -19,6 +20,7 @@ const App = () => {
       <UserSearch />
       <EventComponent />
       <UserSearchClass users={users} />
+      <UserSearchRef />
     </div>
   );
 };
